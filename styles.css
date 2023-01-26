@@ -10,7 +10,6 @@ body {
     align-items: baseline;
     margin: 0;
     padding-right: 20rem;
-    flex-wrap: wrap;
 }
 .title {
     color: #f9faf8;
@@ -19,10 +18,26 @@ body {
     padding-left: 20rem;
     font-weight: bolder;
 }
-
+.child{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 20px;
+}
 .container1 {
     background-color: #1f2937;
+    padding-right: 20rem;
+    padding-left: 20rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
 }
+.hutao{
+    width: 500px;
+    height: 250px;
+    flex-shrink: 0;
+}
+
 .header2 {
     font-weight:bold;
     font-size: 48px;
@@ -43,4 +58,10 @@ a {
 }
 button {
     background-color: #3882f6;
+    height: 30px;
+    width: 100px;
+    font-weight:bolder;
+    color: #e5e7eb;
+    border-color: #3882f6;
+    border-radius: 10px;
 }
