@@ -32,6 +32,35 @@ body {
     padding-bottom: 4rem;
     display: flex;
 }
+
+.container2 .child{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+    flex-direction: row;
+}
+.container2{
+    padding-right: 20rem;
+    padding-left: 20rem;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+.information{
+    max-width: 200px;
+}
+.title2{
+   font-weight: bolder;
+   font-size: 36px;
+   color: #1f2937; 
+   margin-bottom: 3rem;
+}
+.container2 img {
+    border: 2px solid blue;
+    border-radius: 10px;
+}
 .hutao{
     width: 500px;
     height: 250px;
@@ -65,3 +94,7 @@ button {
     border-color: #3882f6;
     border-radius: 10px;
 }
+img {
+    width: 150px;
+    height: 150px;
+  }
