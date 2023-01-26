@@ -61,6 +61,27 @@ body {
     border: 2px solid blue;
     border-radius: 10px;
 }
+.container3{
+    display: flex;
+    background-color: #e5e7eb;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5rem;
+    flex-direction: column;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    max-width: 1000px;
+}
+.quoter{
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
 .hutao{
     width: 500px;
     height: 250px;
