@@ -70,6 +70,36 @@ body {
     padding: 5rem;
     flex-direction: column;
 }
+.container4{
+    background-color: #3882f6;
+    margin: 5rem;
+    margin-left: 18.5rem;
+    margin-right: 18.5rem;
+    padding: 2.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    display: flex;
+    flex: 1;
+}
+.container4 > button{
+    text-align: center;
+    margin-right: auto;
+    margin-left: 30rem;
+    border-color: #f9faf8;
+    border-style: solid;
+}
+.container4 .text{
+    font-size: 16px;
+}
+.subscription{
+    display: flex;
+    flex-direction: column;
+}
+.header3{
+    font-weight: bolder;
+    color: #f9faf8;
+    font-size: 20px;
+}
 .quote{
     font-size: 36px;
     font-style: italic;
@@ -105,15 +135,22 @@ a {
 }
 .footer {
     background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 button {
     background-color: #3882f6;
     height: 30px;
     width: 100px;
     font-weight:bolder;
-    color: #e5e7eb;
+    color: #ffffff;
     border-color: #3882f6;
     border-radius: 10px;
+    border-style: solid;
 }
 img {
     width: 150px;
